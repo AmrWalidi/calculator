@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="screen">
+      <p id="operations"></p>
+    </div>
+    <div class="pre-ans">
+      <p id="ans"></p>
+    </div>
+    <div onclick="dlt()" class="dlt">
+      <p>&times;</p>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+      <div class="btn"><button onclick="empty(this)" class="C">C</button></div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="op">&#40;</button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="op">&#41;</button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="op">&divide;</button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="num">7</button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="num">8</button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="num">9</button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="op">&times;</button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="num">4</button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="num">5</button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="num">6</button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="op">-</button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="num">1</button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="num">2</button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="num">3</button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="op">+</button>
+      </div>
+      <div class="btn">
+        <button class="logo" >
+          <img width="55vw" height="57vh" src="AmrLogo.png" alt="" />
+        </button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="num">0</button>
+      </div>
+      <div class="btn">
+        <button onclick="clicked(this)" class="num">.</button>
+      </div>
+      <div class="btn">
+        <button onclick="printAnswer()" class="eql">=</button>
+      </div>
+    </div>
+  </body>
+</html>
